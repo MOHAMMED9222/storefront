@@ -2,6 +2,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { remove } from "../../store/actions";
 import { Box, IconButton, Typography } from "@mui/material";
 import DeleteIcon from '@mui/icons-material/Delete';
+import thunk from 'redux-thunk';
+
 
 const SimpleCart = () => {
 

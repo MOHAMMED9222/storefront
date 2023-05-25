@@ -1,5 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import { useSelector } from 'react-redux';
+import thunk from 'redux-thunk';
 
 const Header = () => {
   const { cart } = useSelector(state => state)

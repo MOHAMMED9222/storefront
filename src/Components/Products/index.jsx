@@ -1,6 +1,8 @@
 import { useSelector, useDispatch } from "react-redux";
 import { Button, Card, CardActions, CardContent, CardMedia, Container, Grid, Typography } from '@mui/material';
 import { add } from "../../store/actions";
+import thunk from 'redux-thunk';
+
 
 const Products = () => {
   const { products } = useSelector(state => state);
