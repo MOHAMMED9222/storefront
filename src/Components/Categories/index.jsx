@@ -2,6 +2,8 @@ import { ButtonGroup, Button, Container } from "@mui/material";
 import { useSelector, useDispatch } from "react-redux";
 import { set } from "../../store/actions";
 import SimpleCart from "../SimpleCart";
+import thunk from 'redux-thunk';
+
 
 
 const Categories = () => {
